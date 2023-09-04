@@ -50,5 +50,3 @@ if (class_exists('IntimateTales_ACF_Integration')) {
     $intimateTalesACFIntegration = new IntimateTales_ACF_Integration();
     $intimateTalesACFIntegration->register();
 }
-
-register_activation_hook(__FILE__, array($intimateTalesACFIntegration, 'activate'));
