@@ -1,0 +1,28 @@
+{
+  "genre": {
+    "label": "Genre",
+    "public": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "rest_base": "genre",
+    "hierarchical": true,
+    "rewrite": {
+      "slug": "genre"
+    }
+  },
+  "theme": {
+    "label": "Theme",
+    "public": true,
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_in_rest": true,
+    "rest_base": "theme",
+    "hierarchical": true,
+    "rewrite": {
+      "slug": "theme"
+    }
+  }
+}
