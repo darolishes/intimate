@@ -15,7 +15,7 @@ IntimateTales is a web application that encapsulates the essence of interactive 
 Clone the repository and install dependencies:
 
 ```
-git clone https://github.com/yourusername/IntimateTales.git
+git clone https://github.com/darolishes/IntimateTales.git
 cd IntimateTales
 composer install
 npm install
