@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * IntimateTales Core Framework Plugin - Integration Hooks
@@ -38,16 +37,14 @@ class IntimateTales_Core_Framework_Integration_Hooks {
         require_once plugin_dir_path(__FILE__) . 'user_authentication.php';
 
         // Initialize the other plugins
-        do_action('intimatetales_initialize_settings_plugin');
-        do_action('intimatetales_initialize_acf_integration_plugin');
-        do_action('intimatetales_initialize_user_preferences_plugin');
-        do_action('intimatetales_initialize_story_filtering_plugin');
-        do_action('intimatetales_initialize_round_based_gameplay_plugin');
-        do_action('intimatetales_initialize_couples_interaction_plugin');
+        do_action('intimatetales_initialize_acf_integration');
+        do_action('intimatetales_initialize_user_preferences');
+        do_action('intimatetales_initialize_story_filtering');
+        do_action('intimatetales_initialize_round_based_gameplay');
+        do_action('intimatetales_initialize_couples_interaction');
     }
 }
 
 // Instantiate the class
 $intimatetales_core_framework_integration_hooks = new IntimateTales_Core_Framework_Integration_Hooks();
 $intimatetales_core_framework_integration_hooks->plugin_loaded_action();
-```

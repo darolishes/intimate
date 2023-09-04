@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * IntimateTales Core Framework Plugin
@@ -45,4 +44,3 @@ class IT_Core_User_Authentication {
 
 // Initialize the class
 new IT_Core_User_Authentication();
-```

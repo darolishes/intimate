@@ -2,7 +2,7 @@ Shared Dependencies:
 
 1. **WordPress Core**: All files will depend on the WordPress core for basic functionality, including the WordPress Plugin API for hooks and filters.
 
-2. **IntimateTales Core Framework Plugin**: All other plugins (Settings, ACF Integration, User Preferences, Story Filtering, Round-based Gameplay, Couples Interaction) will depend on the core framework plugin for basic functionalities and integration points.
+2. **IntimateTales Core Framework Plugin**: All other plugins (ACF Integration, User Preferences, Story Filtering, Round-based Gameplay, Couples Interaction) will depend on the core framework plugin for basic functionalities and integration points.
 
 3. **API Endpoints**: Shared between all files for seamless interaction and data exchange.
 
@@ -20,14 +20,12 @@ Shared Dependencies:
 
 10. **Plugin Activation and Deactivation Hooks**: Shared across all plugin main files for setting up and tearing down plugin data.
 
-11. **Settings Data**: Shared between the Core Framework Plugin and the Settings Plugin for managing platform settings.
+11. **ACF Fields**: Shared between the Core Framework Plugin and the ACF Integration Plugin for managing custom fields.
 
-12. **ACF Fields**: Shared between the Core Framework Plugin and the ACF Integration Plugin for managing custom fields.
+12. **User Preferences Data**: Shared between the Core Framework Plugin and the User Preferences Plugin for managing user settings.
 
-13. **User Preferences Data**: Shared between the Core Framework Plugin and the User Preferences Plugin for managing user settings.
+13. **Story Filtering Data**: Shared between the Core Framework Plugin and the Story Filtering Plugin for managing story filters.
 
-14. **Story Filtering Data**: Shared between the Core Framework Plugin and the Story Filtering Plugin for managing story filters.
+14. **Gameplay Data**: Shared between the Core Framework Plugin and the Round-based Gameplay Plugin for managing gameplay.
 
-15. **Gameplay Data**: Shared between the Core Framework Plugin and the Round-based Gameplay Plugin for managing gameplay.
-
-16. **Couples Interaction Data**: Shared between the Core Framework Plugin and the Couples Interaction Plugin for managing interactions between couples.
+15. **Couples Interaction Data**: Shared between the Core Framework Plugin and the Couples Interaction Plugin for managing interactions between couples.

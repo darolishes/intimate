@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Plugin Name: IntimateTales Core Framework Plugin
@@ -21,9 +20,9 @@ if (!defined('INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH')) {
 }
 
 // Include dependencies
-require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'api_endpoints.php');
-require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'integration_hooks.php');
-require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'user_authentication.php');
+require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'includes/api_endpoints.php');
+require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'includes/integration_hooks.php');
+require_once(INTIMATETALES_CORE_FRAMEWORK_PLUGIN_PATH . 'includes/user_authentication.php');
 
 // Plugin activation and deactivation hooks
 register_activation_hook(__FILE__, 'intimatetales_core_framework_plugin_activate');
@@ -36,5 +35,3 @@ function intimatetales_core_framework_plugin_activate() {
 function intimatetales_core_framework_plugin_deactivate() {
     // Code to execute on plugin deactivation
 }
-?>
-```

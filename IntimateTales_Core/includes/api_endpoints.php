@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * IntimateTales Core Framework Plugin: API Endpoints
@@ -65,4 +64,3 @@ class IT_Core_API_Endpoints {
 
 // Initialize the API endpoints
 new IT_Core_API_Endpoints();
-```
