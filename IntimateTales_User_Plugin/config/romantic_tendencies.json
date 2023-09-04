@@ -1,0 +1,18 @@
+{
+  "romantic_gestures": {
+    "type": "array",
+    "items": {
+      "type": "string",
+      "enum": ["roses", "gifts", "letters"]
+    },
+    "description": "User's preferred romantic gestures."
+  },
+  "dialogue_styles": {
+    "type": "array",
+    "items": {
+      "type": "string",
+      "enum": ["playful", "serious", "flirty"]
+    },
+    "description": "User's preferred dialogue styles."
+  }
+}

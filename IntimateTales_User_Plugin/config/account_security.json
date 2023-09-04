@@ -1,0 +1,27 @@
+{
+  "accountSecurity": {
+    "passwordChange": {
+      "label": "Change Password",
+      "type": "password",
+      "placeholder": "Enter new password",
+      "validation": {
+        "required": true,
+        "minLength": 8,
+        "maxLength": 32,
+        "pattern": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d@$!%*#?&]{8,}$"
+      },
+      "message": {
+        "success": "Password changed successfully.",
+        "error": "Failed to change password. Please try again."
+      }
+    },
+    "twoFactorAuthentication": {
+      "label": "Two-Factor Authentication",
+      "type": "checkbox",
+      "message": {
+        "enabled": "Two-factor authentication enabled.",
+        "disabled": "Two-factor authentication disabled."
+      }
+    }
+  }
+}

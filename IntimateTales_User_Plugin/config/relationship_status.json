@@ -1,0 +1,26 @@
+{
+  "relationshipStatus": {
+    "type": "select",
+    "label": "Relationship Status",
+    "options": {
+      "single": "Single",
+      "in_a_relationship": "In a Relationship",
+      "engaged": "Engaged",
+      "married": "Married",
+      "it's_complicated": "It's Complicated",
+      "separated": "Separated",
+      "divorced": "Divorced",
+      "widowed": "Widowed"
+    },
+    "default": "single",
+    "required": true,
+    "visibility": {
+      "public": true,
+      "private": false,
+      "friends_only": false
+    },
+    "message": {
+      "on_change": "Your relationship status has been updated."
+    }
+  }
+}

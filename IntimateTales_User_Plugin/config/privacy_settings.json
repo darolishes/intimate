@@ -1,0 +1,15 @@
+{
+  "privacySettings": {
+    "relationshipStatusVisibility": {
+      "type": "boolean",
+      "default": true,
+      "description": "Control the visibility of the user's relationship status."
+    },
+    "personalInformationPrivacyLevel": {
+      "type": "string",
+      "enum": ["public", "friends", "only me"],
+      "default": "public",
+      "description": "Set the privacy level for the user's personal information."
+    }
+  }
+}

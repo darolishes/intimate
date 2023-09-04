@@ -1,0 +1,24 @@
+{
+  "roleplayPreferences": {
+    "type": "object",
+    "properties": {
+      "fantasy": {
+        "type": "boolean",
+        "default": false
+      },
+      "sciFi": {
+        "type": "boolean",
+        "default": false
+      },
+      "historical": {
+        "type": "boolean",
+        "default": false
+      },
+      "other": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "required": ["fantasy", "sciFi", "historical", "other"]
+  }
+}

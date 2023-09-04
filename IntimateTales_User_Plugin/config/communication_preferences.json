@@ -1,0 +1,33 @@
+{
+  "emailNotifications": {
+    "type": "boolean",
+    "default": true,
+    "description": "Enable or disable email notifications."
+  },
+  "newsletterSubscription": {
+    "type": "boolean",
+    "default": false,
+    "description": "Subscribe or unsubscribe from newsletters."
+  },
+  "notificationPreferences": {
+    "type": "object",
+    "properties": {
+      "newStory": {
+        "type": "boolean",
+        "default": true,
+        "description": "Receive notifications for new stories."
+      },
+      "storyUpdates": {
+        "type": "boolean",
+        "default": true,
+        "description": "Receive notifications for updates to stories you follow."
+      },
+      "userInteractions": {
+        "type": "boolean",
+        "default": true,
+        "description": "Receive notifications for interactions with your profile or stories."
+      }
+    },
+    "description": "Specify which types of notifications you want to receive."
+  }
+}

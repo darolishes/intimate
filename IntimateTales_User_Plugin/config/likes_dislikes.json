@@ -1,0 +1,20 @@
+{
+  "preferredEndings": {
+    "label": "Preferred Story Endings",
+    "type": "select",
+    "options": ["Happy", "Tragic", "Open-ended"],
+    "default": "Happy"
+  },
+  "avoidThemes": {
+    "label": "Themes to Avoid",
+    "type": "checkbox",
+    "options": ["Horror", "Suspense"],
+    "default": []
+  },
+  "avoidMoods": {
+    "label": "Moods to Avoid",
+    "type": "checkbox",
+    "options": ["Dark", "Melancholic"],
+    "default": []
+  }
+}

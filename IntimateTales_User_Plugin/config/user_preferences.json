@@ -1,0 +1,12 @@
+{
+  "displayName": {
+    "type": "string",
+    "required": true,
+    "message": "displayNameChanged"
+  },
+  "profilePicture": {
+    "type": "string",
+    "required": false,
+    "message": "profilePictureUploaded"
+  }
+}

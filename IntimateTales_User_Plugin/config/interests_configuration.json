@@ -1,0 +1,26 @@
+{
+  "genres": {
+    "type": "array",
+    "title": "Preferred Genres",
+    "description": "User's preferred genres",
+    "items": {
+      "type": "string"
+    }
+  },
+  "story_themes": {
+    "type": "array",
+    "title": "Preferred Story Themes",
+    "description": "User's preferred story themes",
+    "items": {
+      "type": "string"
+    }
+  },
+  "story_moods": {
+    "type": "array",
+    "title": "Preferred Story Moods",
+    "description": "User's preferred story moods",
+    "items": {
+      "type": "string"
+    }
+  }
+}

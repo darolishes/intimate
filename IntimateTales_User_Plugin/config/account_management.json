@@ -1,0 +1,15 @@
+{
+  "accountManagement": {
+    "downloadData": {
+      "label": "Download My Data",
+      "type": "button",
+      "message": "Your data download request has been received. You will receive an email with a download link shortly."
+    },
+    "deactivateAccount": {
+      "label": "Deactivate My Account",
+      "type": "button",
+      "message": "Are you sure you want to deactivate your account? This action cannot be undone.",
+      "confirmMessage": "Your account has been deactivated. We're sorry to see you go."
+    }
+  }
+}
