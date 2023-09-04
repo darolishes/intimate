@@ -1,19 +1,17 @@
 Shared Dependencies:
 
-1. **ACF JSON Configurations**: All the JSON files (post_types.json, taxonomies.json, options_pages.json) share the dependency of ACF JSON configurations. These configurations are used to define the structure and behavior of custom post types, taxonomies, and options pages.
+1. **User Data Schema**: All files will share a common user data schema, which includes fields like display name, profile picture, first name, last name, gender, date of birth, relationship status, interests, romantic tendencies, roleplay preferences, privacy settings, likes and dislikes, account security settings, communication preferences, and account management settings.
 
-2. **WordPress Functions**: All PHP files (CustomPostTypes.php, Taxonomies.php, OptionsPages.php, ACFIntegration.php, intimate-tales-acf-integration.php) will use WordPress functions for creating and managing custom post types, taxonomies, and options pages.
+2. **ACF Integration Plugin**: The `interests_configuration.php` and `roleplay_preferences.php` files will depend on the ACF Integration Plugin to fetch dynamic options for user preferences. This dependency will be shared with the `acf_integration_plugin.php` file.
 
-3. **ACF Pro Functions**: All PHP files will also use ACF Pro functions for integrating ACF with WordPress and managing ACF JSON configurations.
+3. **DOM Element IDs**: JavaScript functions will interact with DOM elements such as input fields, buttons, and display areas. Shared IDs might include `#displayName`, `#profilePicture`, `#firstName`, `#lastName`, `#gender`, `#dob`, `#relationshipStatus`, `#interests`, `#romanticTendencies`, `#roleplayPreferences`, `#privacySettings`, `#likesDislikes`, `#accountSecurity`, `#communicationPreferences`, and `#accountManagement`.
 
-4. **Plugin Namespace**: All PHP files will share the same namespace, likely something like `IntimateTales_ACF_Integration`, to avoid naming conflicts.
+4. **Function Names**: Shared function names across files might include `updateUserPreferences()`, `updatePersonalInformation()`, `updateRelationshipStatus()`, `updateInterestsConfiguration()`, `updateRomanticTendencies()`, `updateRoleplayPreferences()`, `updatePrivacySettings()`, `updateLikesDislikes()`, `updateAccountSecurity()`, `updateCommunicationPreferences()`, and `updateAccountManagement()`.
 
-5. **Class Names**: The class names `CustomPostTypes`, `Taxonomies`, `OptionsPages`, and `ACFIntegration` will be shared across the PHP files as they represent the main functionality of the plugin.
+5. **Message Names**: Shared message names for user notifications might include `updateSuccess`, `updateFailure`, `validationError`, and `serverError`.
 
-6. **Method Names**: Method names for creating, managing, and integrating ACF configurations will be shared across the PHP files. These might include methods like `create_post_type`, `define_taxonomy`, `construct_options_page`, etc.
+6. **JSON Configuration Files**: The `json_configuration_files.php` file will be a shared dependency for advanced field settings across all other files.
 
-7. **File Paths**: The paths to the JSON files will be shared across the PHP files as they need to load these configurations.
+7. **WordPress Core**: As the plugin is built on WordPress, all files will share dependencies related to WordPress Core functions, hooks, and filters.
 
-8. **WordPress Coding Standards**: All PHP files will adhere to the same WordPress coding standards for consistency and readability.
-
-9. **Documentation**: All PHP files will share the same documentation standards, including class, method, and integration point descriptions.
+8. **PHP 8+**: All files will share the dependency on PHP 8+ for server-side processing.
