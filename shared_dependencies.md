@@ -1,21 +1,29 @@
 Shared Dependencies:
 
-1. **Database Schema**: All PHP files will interact with the same WordPress database, using the same schema. This includes tables for users, characters, storylines, interactions, and progress.
+1. **PHP 8+**: All files will be using PHP 8+ as the primary programming language. 
 
-2. **ACF Fields**: The ACF fields defined in "acf-fields.php" will be used across multiple PHP files for retrieving and storing custom data.
+2. **WordPress Functions**: As the plugin is built on WordPress, all files will be using WordPress functions and hooks. 
 
-3. **WordPress Functions**: All PHP files will use standard WordPress functions for database interaction, user management, and other core functionalities.
+3. **ACF Pro Functions**: The files will be using ACF Pro functions for data management and customization.
 
-4. **JavaScript Functions**: The "main.js" file will contain JavaScript functions that are used across the application for interactive features. These functions will be used in various PHP files to enhance user interaction.
+4. **Couples Collaboration Functions**: Functions related to couples collaboration will be shared across the files `CouplesCollaboration.php`, `UnifiedDecisionMaking.php`, and their respective test files.
 
-5. **CSS Styles**: The "style.css" file will contain styles that are used across the application. These styles will be applied to elements in various PHP files to enhance the visual appearance.
+5. **Unified Decision Making Functions**: Functions related to unified decision making will be shared across the files `UnifiedDecisionMaking.php`, `CouplesCollaboration.php`, and their respective test files.
 
-6. **DOM Element IDs**: The JavaScript functions in "main.js" will interact with various DOM elements across the application. These elements will have unique IDs that are shared across multiple files.
+6. **Integration Functions**: Functions related to integration will be shared across the files `IntegrationModule.php` and its test file.
 
-7. **Message Names**: The application will use standard message names for communication between the server (PHP) and client (JavaScript). These message names will be shared across multiple files.
+7. **Access Modes Functions**: Functions related to access modes will be shared across the files `AccessModes.php` and its test file.
 
-8. **Function Names**: The PHP files will contain functions that are used across the application. These function names will be shared across multiple files.
+8. **Template Functions**: Functions related to customizable templates will be shared across the files `CustomizableTemplates.php`, `email_template.php`, `sms_template.php`, `notification_template.php`, and their respective test files.
 
-9. **WordPress Coding Standards**: All PHP files will adhere to the same WordPress coding standards as defined in "wp-coding-standards.php".
+9. **Compatibility Functions**: Functions related to compatibility will be shared across the files `CompatibilityModule.php` and its test file.
 
-10. **Documentation**: The documentation in "documentation.md" will reference various elements, functions, and features that are shared across multiple files.
+10. **Test Functions**: All test files will be using PHPUnit functions for testing.
+
+11. **Documentation**: All files will be following the documentation guidelines mentioned in `DEVELOPMENT_GUIDELINES.md`.
+
+12. **DOM Elements**: If any JavaScript is used, the id names of DOM elements will be shared across the files.
+
+13. **Message Names**: Message names for notifications, emails, and SMS will be shared across the files `email_template.php`, `sms_template.php`, `notification_template.php`, and `CustomizableTemplates.php`.
+
+14. **Data Schemas**: Data schemas for storing and retrieving data will be shared across all files.
