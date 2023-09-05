@@ -1,0 +1,58 @@
+# Plugin 2 Documentation
+
+## Overview
+
+Plugin 2 is a part of the IntimateTales Plugin Ecosystem. It is designed to provide a specific set of features to enhance the user experience on the platform.
+
+## File Structure
+
+- `index.php`: The main entry point of the plugin.
+- `functions.php`: Contains the core functions used by the plugin.
+- `styles.css`: Contains the CSS styles used by the plugin.
+- `scripts.js`: Contains the JavaScript code for interactive components.
+- `acf-fields.json`: Defines the ACF fields used by the plugin.
+
+## Dependencies
+
+This plugin depends on the following shared resources:
+
+- Common PHP functions
+- ACF fields defined in `acf-fields.json`
+- CSS classes and IDs defined in `styles.css`
+- JavaScript functions defined in `scripts.js`
+- WordPress hooks and filters used in `functions.php`
+- Configuration settings from `central-config.php`
+- Logging settings from `logging-config.php`
+
+## Functionality
+
+This plugin provides the following features:
+
+- Feature 1: Description of feature 1
+- Feature 2: Description of feature 2
+- Feature 3: Description of feature 3
+
+## Installation
+
+1. Upload the plugin files to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' screen in WordPress
+
+## Usage
+
+Provide usage examples and instructions here.
+
+## Testing
+
+Refer to `tests/plugin2-tests.php` for test cases related to this plugin.
+
+## Feedback and Suggestions
+
+We welcome your feedback and suggestions for improving this plugin. Please submit your ideas through our user feedback loop.
+
+## Changelog
+
+- Version 1.0: Initial release
+
+## License
+
+This plugin is licensed under the GPL v2.0 license.

@@ -1,0 +1,40 @@
+# Plugin 4 Documentation
+
+## Overview
+Plugin 4 is a part of the IntimateTales Plugin Ecosystem. It is designed to provide a specific functionality within the platform, contributing to a seamless and compelling user experience.
+
+## File Structure
+- `index.php`: The main entry point of the plugin.
+- `functions.php`: Contains all the PHP functions used by the plugin.
+- `styles.css`: Contains all the CSS styles used by the plugin.
+- `scripts.js`: Contains all the JavaScript functions used by the plugin.
+- `acf-fields.json`: Contains the ACF fields used by the plugin.
+
+## Dependencies
+This plugin depends on the following shared resources:
+- Common PHP functions
+- ACF fields defined in `acf-fields.json`
+- CSS classes and IDs defined in `styles.css`
+- JavaScript functions defined in `scripts.js`
+- WordPress hooks and filters used in `functions.php`
+- Configuration settings defined in `central-config.php`
+- Logging settings defined in `logging-config.php`
+
+## Installation
+1. Upload the plugin folder to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+
+## Usage
+Detailed usage instructions will be provided based on the specific functionality of the plugin.
+
+## Testing
+Refer to `tests/plugin4-tests.php` for test cases related to this plugin.
+
+## Support
+For any issues or enhancement suggestions related to this plugin, please raise a ticket in the issue tracker.
+
+## Changelog
+Detailed version history and changes will be documented here.
+
+## License
+This plugin is licensed under the GPL v2.0 license.

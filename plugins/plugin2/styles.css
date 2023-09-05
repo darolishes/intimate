@@ -1,0 +1,62 @@
+/* Plugin2 Styles */
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin: 20px;
+}
+
+/* Button Styles */
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Form Styles */
+.form-element {
+    margin-bottom: 10px;
+}
+
+.form-element input,
+.form-element textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Story Styles */
+.story {
+    margin-bottom: 20px;
+}
+
+.story h2 {
+    margin-bottom: 10px;
+}
+
+.story p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}

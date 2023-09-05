@@ -1,0 +1,61 @@
+{
+  "key": "group_1",
+  "title": "Plugin 3 Fields",
+  "fields": [
+    {
+      "key": "field_1",
+      "label": "Story Title",
+      "name": "story_title",
+      "type": "text",
+      "instructions": "Enter the title of the story",
+      "required": true
+    },
+    {
+      "key": "field_2",
+      "label": "Story Content",
+      "name": "story_content",
+      "type": "textarea",
+      "instructions": "Enter the content of the story",
+      "required": true
+    },
+    {
+      "key": "field_3",
+      "label": "Author Name",
+      "name": "author_name",
+      "type": "text",
+      "instructions": "Enter the name of the author",
+      "required": true
+    },
+    {
+      "key": "field_4",
+      "label": "Publish Date",
+      "name": "publish_date",
+      "type": "date_picker",
+      "instructions": "Select the publish date of the story",
+      "required": true
+    },
+    {
+      "key": "field_5",
+      "label": "Story Tags",
+      "name": "story_tags",
+      "type": "text",
+      "instructions": "Enter the tags for the story",
+      "required": false
+    }
+  ],
+  "location": [
+    {
+      "param": "post_type",
+      "operator": "==",
+      "value": "post"
+    }
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": 1,
+  "description": ""
+}

@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "key": "field_1",
+      "label": "Story Title",
+      "name": "story_title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "field_2",
+      "label": "Story Content",
+      "name": "story_content",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "key": "field_3",
+      "label": "Author Name",
+      "name": "author_name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "field_4",
+      "label": "Author Bio",
+      "name": "author_bio",
+      "type": "textarea"
+    },
+    {
+      "key": "field_5",
+      "label": "Publish Date",
+      "name": "publish_date",
+      "type": "date_picker",
+      "required": true
+    },
+    {
+      "key": "field_6",
+      "label": "Story Tags",
+      "name": "story_tags",
+      "type": "text"
+    },
+    {
+      "key": "field_7",
+      "label": "Story Rating",
+      "name": "story_rating",
+      "type": "number",
+      "min": 1,
+      "max": 5
+    }
+  ]
+}
