@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * WordPress Coding Standards
@@ -41,4 +40,3 @@ exec('vendor/bin/phpcs --config-set installed_paths ' . escapeshellarg($standard
 exec('vendor/bin/phpcs --config-set default_standard ' . escapeshellarg($standard));
 exec('vendor/bin/phpcs --config-set ignore ' . escapeshellarg(implode(',', $phpcsConfig['ignore'])));
 exec('vendor/bin/phpcs --config-set extensions ' . escapeshellarg(implode(',', $phpcsConfig['extensions'])));
-```

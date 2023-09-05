@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Character Module for IntimateTales Roleplay
@@ -66,4 +65,3 @@ class CharacterModule {
 
 // Initialize the class
 $character_module = new CharacterModule();
-```

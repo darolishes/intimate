@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Interaction Class for IntimateTales Roleplay
@@ -51,4 +50,3 @@ class Interaction {
 
 // Initialize the class
 $interaction = new Interaction();
-```

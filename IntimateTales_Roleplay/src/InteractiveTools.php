@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Interactive Tools for IntimateTales Roleplay
@@ -56,4 +55,3 @@ function itrp_load_decision_history( $user_id ) {
 	// TODO: Implement decision history loading.
 	return array();
 }
-```

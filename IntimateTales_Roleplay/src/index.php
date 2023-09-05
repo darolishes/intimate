@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * IntimateTales Roleplay Module
@@ -38,4 +37,3 @@ $loading->run();
 $storyManagement->run();
 $characterModule->run();
 $interactiveTools->run();
-```

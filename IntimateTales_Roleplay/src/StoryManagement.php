@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Story Management Module for IntimateTales Roleplay
@@ -74,4 +73,3 @@ class StoryManagement {
 // Instantiate the StoryManagement class
 $storyManagement = new StoryManagement();
 ?>
-```

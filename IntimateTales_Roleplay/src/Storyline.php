@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Storyline Class
@@ -90,4 +89,3 @@ class Storyline {
         return wp_delete_post($id, true);
     }
 }
-```

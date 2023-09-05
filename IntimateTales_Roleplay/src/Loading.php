@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Loading Class for IntimateTales Roleplay
@@ -42,4 +41,3 @@ class Loading {
 // Initialize Loading
 $loading = new Loading();
 $loading->init_loading_elements();
-```

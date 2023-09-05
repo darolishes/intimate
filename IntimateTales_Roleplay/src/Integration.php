@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Integration.php
@@ -50,4 +49,3 @@ class Integration {
 }
 
 new Integration();
-```

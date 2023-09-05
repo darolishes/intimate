@@ -1,4 +1,3 @@
-```php
 <?php
 /**
  * Class Progress
@@ -42,4 +41,3 @@ class Progress {
         return delete_user_meta( $user_id, 'it_roleplay_progress' );
     }
 }
-```

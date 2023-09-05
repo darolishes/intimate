@@ -40,4 +40,3 @@ function handleDynamicStorylines() {
 document.addEventListener('DOMContentLoaded', function() {
     // Code for event listeners goes here
 });
-```
