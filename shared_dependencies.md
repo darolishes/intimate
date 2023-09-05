@@ -1,21 +1,74 @@
-Shared Dependencies:
-
-1. **Database Schema**: All PHP files will interact with the same WordPress database, using the same schema. This includes tables for users, characters, storylines, interactions, and progress.
-
-2. **ACF Fields**: The ACF fields defined in "acf-fields.php" will be used across multiple PHP files for retrieving and storing custom data.
-
-3. **WordPress Functions**: All PHP files will use standard WordPress functions for database interaction, user management, and other core functionalities.
-
-4. **JavaScript Functions**: The "main.js" file will contain JavaScript functions that are used across the application for interactive features. These functions will be used in various PHP files to enhance user interaction.
-
-5. **CSS Styles**: The "style.css" file will contain styles that are used across the application. These styles will be applied to elements in various PHP files to enhance the visual appearance.
-
-6. **DOM Element IDs**: The JavaScript functions in "main.js" will interact with various DOM elements across the application. These elements will have unique IDs that are shared across multiple files.
-
-7. **Message Names**: The application will use standard message names for communication between the server (PHP) and client (JavaScript). These message names will be shared across multiple files.
-
-8. **Function Names**: The PHP files will contain functions that are used across the application. These function names will be shared across multiple files.
-
-9. **WordPress Coding Standards**: All PHP files will adhere to the same WordPress coding standards as defined in "wp-coding-standards.php".
-
-10. **Documentation**: The documentation in "documentation.md" will reference various elements, functions, and features that are shared across multiple files.
+./shared_dependencies.md
+./Documentation/troubleshooting.md
+./Documentation/plugin_overview.md
+./Documentation/faq.md
+./Documentation/introduction.md
+./Documentation/setup_guide.md
+./Documentation/intimatetales-couples-plugin/configuration_guide.md
+./Documentation/intimatetales-couples-plugin/usage_guide.md
+./Documentation/intimatetales-couples-plugin/description.md
+./Documentation/intimate-tales-core/configuration_guide.md
+./Documentation/intimate-tales-core/usage_guide.md
+./Documentation/intimate-tales-core/description.md
+./Documentation/intimatetales-acf-integration/configuration_guide.md
+./Documentation/intimatetales-acf-integration/usage_guide.md
+./Documentation/intimatetales-acf-integration/description.md
+./Documentation/intimatetales-nutzer-plugin/configuration_guide.md
+./Documentation/intimatetales-nutzer-plugin/usage_guide.md
+./Documentation/intimatetales-nutzer-plugin/description.md
+./IntimateTales_ACF_Integration/intimate-tales-acf-integration.php
+./IntimateTales_ACF_Integration/includes/OptionsPages.php
+./IntimateTales_ACF_Integration/includes/ACFIntegration.php
+./IntimateTales_ACF_Integration/includes/CustomPostTypes.php
+./IntimateTales_ACF_Integration/includes/Taxonomies.php
+./IntimateTales_Core/main.php
+./IntimateTales_Core/includes/api_endpoints.php
+./IntimateTales_Core/includes/integration_hooks.php
+./IntimateTales_Core/includes/user_authentication.php
+./IntimateTales_Couples_Interaction/shared_dependencies.md
+./IntimateTales_Couples_Interaction/tests/UnifiedDecisionMakingTest.php
+./IntimateTales_Couples_Interaction/tests/IntegrationModuleTest.php
+./IntimateTales_Couples_Interaction/tests/CompatibilityModuleTest.php
+./IntimateTales_Couples_Interaction/tests/CouplesCollaborationTest.php
+./IntimateTales_Couples_Interaction/tests/CustomizableTemplatesTest.php
+./IntimateTales_Couples_Interaction/tests/AccessModesTest.php
+./IntimateTales_Couples_Interaction/docs/README.md
+./IntimateTales_Couples_Interaction/docs/DEVELOPMENT_GUIDELINES.md
+./IntimateTales_Couples_Interaction/templates/sms_template.php
+./IntimateTales_Couples_Interaction/templates/email_template.php
+./IntimateTales_Couples_Interaction/templates/notification_template.php
+./IntimateTales_Couples_Interaction/src/main.php
+./IntimateTales_Couples_Interaction/src/IntegrationModule.php
+./IntimateTales_Couples_Interaction/src/CompatibilityModule.php
+./IntimateTales_Couples_Interaction/src/CustomizableTemplates.php
+./IntimateTales_Couples_Interaction/src/CouplesCollaboration.php
+./IntimateTales_Couples_Interaction/src/UnifiedDecisionMaking.php
+./IntimateTales_Couples_Interaction/src/AccessModes.php
+./IntimateTales_User/relationship_status.php
+./IntimateTales_User/interests_configuration.php
+./IntimateTales_User/acf_integration_plugin.php
+./IntimateTales_User/personal_information.php
+./IntimateTales_User/account_management.php
+./IntimateTales_User/json_configuration_files.php
+./IntimateTales_User/likes_dislikes.php
+./IntimateTales_User/romantic_tendencies.php
+./IntimateTales_User/roleplay_preferences.php
+./IntimateTales_User/user_preferences.php
+./IntimateTales_User/privacy_settings.php
+./IntimateTales_User/communication_preferences.php
+./IntimateTales_User/account_security.php
+./IntimateTales_Roleplay/includes/wp-coding-standards.php
+./IntimateTales_Roleplay/includes/acf-fields.php
+./IntimateTales_Roleplay/docs/documentation.md
+./IntimateTales_Roleplay/assets/css/style.css
+./IntimateTales_Roleplay/assets/js/main.js
+./IntimateTales_Roleplay/src/Progress.php
+./IntimateTales_Roleplay/src/index.php
+./IntimateTales_Roleplay/src/StoryManagement.php
+./IntimateTales_Roleplay/src/Storyline.php
+./IntimateTales_Roleplay/src/Character.php
+./IntimateTales_Roleplay/src/Interaction.php
+./IntimateTales_Roleplay/src/Integration.php
+./IntimateTales_Roleplay/src/CharacterModule.php
+./IntimateTales_Roleplay/src/Loading.php
+./IntimateTales_Roleplay/src/InteractiveTools.php
