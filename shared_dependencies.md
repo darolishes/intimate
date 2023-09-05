@@ -1,74 +1,31 @@
-./shared_dependencies.md
-./Documentation/troubleshooting.md
-./Documentation/plugin_overview.md
-./Documentation/faq.md
-./Documentation/introduction.md
-./Documentation/setup_guide.md
-./Documentation/intimatetales-couples-plugin/configuration_guide.md
-./Documentation/intimatetales-couples-plugin/usage_guide.md
-./Documentation/intimatetales-couples-plugin/description.md
-./Documentation/intimate-tales-core/configuration_guide.md
-./Documentation/intimate-tales-core/usage_guide.md
-./Documentation/intimate-tales-core/description.md
-./Documentation/intimatetales-acf-integration/configuration_guide.md
-./Documentation/intimatetales-acf-integration/usage_guide.md
-./Documentation/intimatetales-acf-integration/description.md
-./Documentation/intimatetales-nutzer-plugin/configuration_guide.md
-./Documentation/intimatetales-nutzer-plugin/usage_guide.md
-./Documentation/intimatetales-nutzer-plugin/description.md
-./IntimateTales_ACF_Integration/intimate-tales-acf-integration.php
-./IntimateTales_ACF_Integration/includes/OptionsPages.php
-./IntimateTales_ACF_Integration/includes/ACFIntegration.php
-./IntimateTales_ACF_Integration/includes/CustomPostTypes.php
-./IntimateTales_ACF_Integration/includes/Taxonomies.php
-./IntimateTales_Core/main.php
-./IntimateTales_Core/includes/api_endpoints.php
-./IntimateTales_Core/includes/integration_hooks.php
-./IntimateTales_Core/includes/user_authentication.php
-./IntimateTales_Couples_Interaction/shared_dependencies.md
-./IntimateTales_Couples_Interaction/tests/UnifiedDecisionMakingTest.php
-./IntimateTales_Couples_Interaction/tests/IntegrationModuleTest.php
-./IntimateTales_Couples_Interaction/tests/CompatibilityModuleTest.php
-./IntimateTales_Couples_Interaction/tests/CouplesCollaborationTest.php
-./IntimateTales_Couples_Interaction/tests/CustomizableTemplatesTest.php
-./IntimateTales_Couples_Interaction/tests/AccessModesTest.php
-./IntimateTales_Couples_Interaction/docs/README.md
-./IntimateTales_Couples_Interaction/docs/DEVELOPMENT_GUIDELINES.md
-./IntimateTales_Couples_Interaction/templates/sms_template.php
-./IntimateTales_Couples_Interaction/templates/email_template.php
-./IntimateTales_Couples_Interaction/templates/notification_template.php
-./IntimateTales_Couples_Interaction/src/main.php
-./IntimateTales_Couples_Interaction/src/IntegrationModule.php
-./IntimateTales_Couples_Interaction/src/CompatibilityModule.php
-./IntimateTales_Couples_Interaction/src/CustomizableTemplates.php
-./IntimateTales_Couples_Interaction/src/CouplesCollaboration.php
-./IntimateTales_Couples_Interaction/src/UnifiedDecisionMaking.php
-./IntimateTales_Couples_Interaction/src/AccessModes.php
-./IntimateTales_User/relationship_status.php
-./IntimateTales_User/interests_configuration.php
-./IntimateTales_User/acf_integration_plugin.php
-./IntimateTales_User/personal_information.php
-./IntimateTales_User/account_management.php
-./IntimateTales_User/json_configuration_files.php
-./IntimateTales_User/likes_dislikes.php
-./IntimateTales_User/romantic_tendencies.php
-./IntimateTales_User/roleplay_preferences.php
-./IntimateTales_User/user_preferences.php
-./IntimateTales_User/privacy_settings.php
-./IntimateTales_User/communication_preferences.php
-./IntimateTales_User/account_security.php
-./IntimateTales_Roleplay/includes/wp-coding-standards.php
-./IntimateTales_Roleplay/includes/acf-fields.php
-./IntimateTales_Roleplay/docs/documentation.md
-./IntimateTales_Roleplay/assets/css/style.css
-./IntimateTales_Roleplay/assets/js/main.js
-./IntimateTales_Roleplay/src/Progress.php
-./IntimateTales_Roleplay/src/index.php
-./IntimateTales_Roleplay/src/StoryManagement.php
-./IntimateTales_Roleplay/src/Storyline.php
-./IntimateTales_Roleplay/src/Character.php
-./IntimateTales_Roleplay/src/Interaction.php
-./IntimateTales_Roleplay/src/Integration.php
-./IntimateTales_Roleplay/src/CharacterModule.php
-./IntimateTales_Roleplay/src/Loading.php
-./IntimateTales_Roleplay/src/InteractiveTools.php
+Shared Dependencies:
+
+1. "repository_info": This is a data schema that contains information about the current repository. It is used by "repository_analyzer.py", "plugin_checker.py", "refactoring_tool.py", "bugfixing_tool.py", "best_practice_checker.py", "improvement_tool.py", "structure_checker.py", "code_cleaner.py", "performance_optimizer.py", "delivery_decision_maker.py", "wordpress_coding_standards_checker.py", "php8_compatibility_checker.py", "documentation_generator.py", and "project_structure_generator.py".
+
+2. "plugin_data": This is a data schema that contains information about the plugins in the repository. It is used by "plugin_checker.py", "refactoring_tool.py", "bugfixing_tool.py", "best_practice_checker.py", "improvement_tool.py", "structure_checker.py", "code_cleaner.py", "performance_optimizer.py", and "delivery_decision_maker.py".
+
+3. "check_completeness": This is a function used by "plugin_checker.py" to verify if the plugins are complete.
+
+4. "refactor_code": This is a function used by "refactoring_tool.py" to refactor the code.
+
+5. "fix_bugs": This is a function used by "bugfixing_tool.py" to fix bugs in the code.
+
+6. "check_best_practices": This is a function used by "best_practice_checker.py" to check if the code follows best practices.
+
+7. "improve_code": This is a function used by "improvement_tool.py" to improve the code.
+
+8. "check_structure": This is a function used by "structure_checker.py" to check the structure of the code.
+
+9. "clean_code": This is a function used by "code_cleaner.py" to clean the code.
+
+10. "optimize_performance": This is a function used by "performance_optimizer.py" to optimize the performance of the code.
+
+11. "decide_delivery": This is a function used by "delivery_decision_maker.py" to decide whether to deliver multiple plugins or a single one.
+
+12. "check_wordpress_standards": This is a function used by "wordpress_coding_standards_checker.py" to check if the code follows WordPress coding standards.
+
+13. "check_php8_compatibility": This is a function used by "php8_compatibility_checker.py" to check if the code is compatible with PHP 8+.
+
+14. "generate_documentation": This is a function used by "documentation_generator.py" to generate documentation for the code.
+
+15. "generate_project_structure": This is a function used by "project_structure_generator.py" to generate the structure of the project.
