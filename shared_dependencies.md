@@ -1,74 +1,25 @@
-./shared_dependencies.md
-./Documentation/troubleshooting.md
-./Documentation/plugin_overview.md
-./Documentation/faq.md
-./Documentation/introduction.md
-./Documentation/setup_guide.md
-./Documentation/intimatetales-couples-plugin/configuration_guide.md
-./Documentation/intimatetales-couples-plugin/usage_guide.md
-./Documentation/intimatetales-couples-plugin/description.md
-./Documentation/intimate-tales-core/configuration_guide.md
-./Documentation/intimate-tales-core/usage_guide.md
-./Documentation/intimate-tales-core/description.md
-./Documentation/intimatetales-acf-integration/configuration_guide.md
-./Documentation/intimatetales-acf-integration/usage_guide.md
-./Documentation/intimatetales-acf-integration/description.md
-./Documentation/intimatetales-nutzer-plugin/configuration_guide.md
-./Documentation/intimatetales-nutzer-plugin/usage_guide.md
-./Documentation/intimatetales-nutzer-plugin/description.md
-./IntimateTales_ACF_Integration/intimate-tales-acf-integration.php
-./IntimateTales_ACF_Integration/includes/OptionsPages.php
-./IntimateTales_ACF_Integration/includes/ACFIntegration.php
-./IntimateTales_ACF_Integration/includes/CustomPostTypes.php
-./IntimateTales_ACF_Integration/includes/Taxonomies.php
-./IntimateTales_Core/main.php
-./IntimateTales_Core/includes/api_endpoints.php
-./IntimateTales_Core/includes/integration_hooks.php
-./IntimateTales_Core/includes/user_authentication.php
-./IntimateTales_Couples_Interaction/shared_dependencies.md
-./IntimateTales_Couples_Interaction/tests/UnifiedDecisionMakingTest.php
-./IntimateTales_Couples_Interaction/tests/IntegrationModuleTest.php
-./IntimateTales_Couples_Interaction/tests/CompatibilityModuleTest.php
-./IntimateTales_Couples_Interaction/tests/CouplesCollaborationTest.php
-./IntimateTales_Couples_Interaction/tests/CustomizableTemplatesTest.php
-./IntimateTales_Couples_Interaction/tests/AccessModesTest.php
-./IntimateTales_Couples_Interaction/docs/README.md
-./IntimateTales_Couples_Interaction/docs/DEVELOPMENT_GUIDELINES.md
-./IntimateTales_Couples_Interaction/templates/sms_template.php
-./IntimateTales_Couples_Interaction/templates/email_template.php
-./IntimateTales_Couples_Interaction/templates/notification_template.php
-./IntimateTales_Couples_Interaction/src/main.php
-./IntimateTales_Couples_Interaction/src/IntegrationModule.php
-./IntimateTales_Couples_Interaction/src/CompatibilityModule.php
-./IntimateTales_Couples_Interaction/src/CustomizableTemplates.php
-./IntimateTales_Couples_Interaction/src/CouplesCollaboration.php
-./IntimateTales_Couples_Interaction/src/UnifiedDecisionMaking.php
-./IntimateTales_Couples_Interaction/src/AccessModes.php
-./IntimateTales_User/relationship_status.php
-./IntimateTales_User/interests_configuration.php
-./IntimateTales_User/acf_integration_plugin.php
-./IntimateTales_User/personal_information.php
-./IntimateTales_User/account_management.php
-./IntimateTales_User/json_configuration_files.php
-./IntimateTales_User/likes_dislikes.php
-./IntimateTales_User/romantic_tendencies.php
-./IntimateTales_User/roleplay_preferences.php
-./IntimateTales_User/user_preferences.php
-./IntimateTales_User/privacy_settings.php
-./IntimateTales_User/communication_preferences.php
-./IntimateTales_User/account_security.php
-./IntimateTales_Roleplay/includes/wp-coding-standards.php
-./IntimateTales_Roleplay/includes/acf-fields.php
-./IntimateTales_Roleplay/docs/documentation.md
-./IntimateTales_Roleplay/assets/css/style.css
-./IntimateTales_Roleplay/assets/js/main.js
-./IntimateTales_Roleplay/src/Progress.php
-./IntimateTales_Roleplay/src/index.php
-./IntimateTales_Roleplay/src/StoryManagement.php
-./IntimateTales_Roleplay/src/Storyline.php
-./IntimateTales_Roleplay/src/Character.php
-./IntimateTales_Roleplay/src/Interaction.php
-./IntimateTales_Roleplay/src/Integration.php
-./IntimateTales_Roleplay/src/CharacterModule.php
-./IntimateTales_Roleplay/src/Loading.php
-./IntimateTales_Roleplay/src/InteractiveTools.php
+Shared Dependencies:
+
+1. **WordPress Core**: All modules will rely on the WordPress core for basic functionalities. This includes user management, post types, taxonomies, and more.
+
+2. **ACF Pro**: The Advanced Custom Fields (ACF) Pro plugin is a shared dependency across the Settings Module, ACF Integration Module, and User Plugin. It is used for creating and managing configurations, options pages, and advanced fields.
+
+3. **IntimateTales Settings Plugin**: The Settings Module will integrate with the IntimateTales Settings Plugin for configuration management.
+
+4. **User Settings**: User settings, including preferences, likes, dislikes, and inclinations, are shared across the User Plugin and Couples Interaction Module.
+
+5. **Role-Playing Data**: The Role-Playing Module will generate and manage data related to the role-playing experiences, such as characters' appearance, attributes, and backstory. This data will be shared with the Couples Interaction Module and potentially other plugins.
+
+6. **DOM Elements**: The id names of DOM elements used by JavaScript functions will be shared across modules. These may include elements related to user settings, role-playing experiences, and couples interactions.
+
+7. **Function Names**: Function names will be shared across modules to ensure consistency and facilitate integration. These may include functions related to user management, ACF integration, role-playing experiences, and more.
+
+8. **Database Schemas**: The database schemas used to store user data, role-playing data, and settings will be shared across modules.
+
+9. **Message Names**: Message names used for user feedback, notifications, and other communication with the user will be shared across modules.
+
+10. **SEO and Accessibility Features**: The SEO Optimization and Accessibility Features modules will likely share some dependencies related to the structure and metadata of the web application.
+
+11. **Scalability Design**: The Scalability Design module will share dependencies with all other modules, as it will need to consider the impact of each module on the overall scalability of the platform.
+
+12. **Monetization Options**: The Monetization Options module will share dependencies with the User Plugin and potentially other modules, as it will need to consider user preferences and usage patterns.
