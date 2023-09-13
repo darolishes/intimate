@@ -1,0 +1,92 @@
+```scss
+// Importing Codyhouse CSS Framework
+@import "codyhouse-framework/main";
+
+// Global Styles
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+// Header Styles
+header {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+// Footer Styles
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-top: 1px solid #dee2e6;
+}
+
+// Login & Registration Form Styles
+.login-form,
+.registration-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// User Dashboard Styles
+.user-dashboard {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+// Story Interface Styles
+.story-interface {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Pairing System Styles
+.pairing-system {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Story Generator Styles
+.story-generator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Gamification Styles
+.gamification {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+// Rewards Styles
+.rewards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Onboarding Styles
+.onboarding {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Search Styles
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
