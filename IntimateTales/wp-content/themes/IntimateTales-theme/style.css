@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation */
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#main-header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Story Container */
+#story-container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Category Container */
+#category-container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Roleplay Interface */
+#roleplay-interface {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Onboarding Container */
+#onboarding-container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Login Form */
+#login-form {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #444;
+}

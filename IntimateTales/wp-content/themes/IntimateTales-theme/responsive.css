@@ -1,0 +1,48 @@
+/* Responsive CSS for IntimateTales Theme */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    #login-form,
+    #story-container,
+    #category-container,
+    #roleplay-interface,
+    #onboarding-container {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #login-form,
+    #story-container,
+    #category-container,
+    #roleplay-interface,
+    #onboarding-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #login-form,
+    #story-container,
+    #category-container,
+    #roleplay-interface,
+    #onboarding-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #login-form,
+    #story-container,
+    #category-container,
+    #roleplay-interface,
+    #onboarding-container {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
